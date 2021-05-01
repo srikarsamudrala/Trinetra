@@ -1,0 +1,38 @@
+.nav-home {
+    background: url('./background.png');
+    /* background: url('./banner_bg.png'); */
+}
+.home {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+}
+.h1 {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 48px;
+    color: #323E68;
+    margin-top: 25%;
+    margin-left: 3%;
+    margin-right: -10%;
+    /* text-align: justify; */
+    text-align: center;
+}
+.home .banner-svg {
+    margin-left: -10%;
+    width: 100px;
+}
+.get_button {
+    width: 286px;
+    height: 64px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+    background-color: #2F3C66;
+    border-radius: 30px;
+    padding-top: 2%;
+    margin-top: 10%;
+    margin-left: 30%;
+}
