@@ -1,6 +1,7 @@
 .nav-home {
     background: url('./background.png');
-    /* background: url('./banner_bg.png'); */
+    background-size: cover;
+    overflow: hidden;
 }
 .home {
     display: flex;
@@ -13,16 +14,16 @@
     font-style: normal;
     font-size: 48px;
     color: #323E68;
-    margin-top: 25%;
+    margin-top: 28%;
     margin-left: 3%;
     margin-right: -10%;
     /* text-align: justify; */
     text-align: center;
 }
-.home .banner-svg {
+/* .home .banner-svg {
     margin-left: -10%;
     width: 100px;
-}
+} */
 .get_button {
     width: 286px;
     height: 64px;
@@ -30,9 +31,18 @@
     font-weight: 800;
     font-style: normal;
     font-size: 24px;
-    background-color: #2F3C66;
+    background: #2F3C66;
     border-radius: 30px;
-    padding-top: 2%;
-    margin-top: 10%;
-    margin-left: 30%;
+    position: absolute;
+    /* top: 15%; */
+    margin-top: 3%;
+    margin-left: 8%;
+    color: #FFFFFF;
+    width: 286px;
+    height: 64px;
+    text-align: center;
+    padding-top: 1%;
+}
+.banner_svg {
+    transform: scale(0.9);
 }

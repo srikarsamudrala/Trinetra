@@ -2,8 +2,8 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .download_head {
@@ -15,6 +15,6 @@
     text-transform: uppercase;
     color: #FFFFFF;
     position: absolute;
-    top: 255%;
-    left: 40%;
+    top: 52%;
+    left: 41%;
 }

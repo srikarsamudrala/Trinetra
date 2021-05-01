@@ -1,8 +1,9 @@
 .ins_img {
-    transform: scale(0.9);
+    transform: scale(0.7);
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -8%;
 }
 
 .ins_text {
@@ -11,6 +12,6 @@
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
-    top: 360%;
-    left: 43%;
+    top: 55%;
+    left: 44.5%;
 }

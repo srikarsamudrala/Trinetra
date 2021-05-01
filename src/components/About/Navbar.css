@@ -3,7 +3,10 @@
 }
 .navbar {
     padding-top: 10px;
-    /* background: url(./banner_bg.png); */
+}
+.logo {
+    width: 175px;
+    height: 80px;
 }
 .btn {
     background-color: #FFFFFF;
@@ -16,10 +19,11 @@
     color: #1D2C5F;
     height: 60px;
     margin-left: 40px;
+    transform: translateY(-5px);
 }
 .home-link {
     width: 130px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 .about-link {
     width: 139px;
