@@ -26,7 +26,7 @@ class Download extends React.Component {
                 <div className="row">
                     <nav className="navbar navbar-expand-lg" ref="nav">
                         <div className="nav-left col-lg-6">
-                            <Link to="/Home" className="navbar-brand"><img src={logo} className="logo" /></Link>
+                            <Link to="/Home" className="navbar-brand"><img src={logo} className="logo" alt="pic" /></Link>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
@@ -51,7 +51,7 @@ class Download extends React.Component {
                 </div>   
                 <div className="download" ref="down">
                     <a href="https://github.com/srikarsamudrala/Trinetra">
-                        <img src={down_box} className="down_box" />
+                        <img src={down_box} className="down_box" alt="pic" />
                         <h1 className="download_head">Download</h1>
                     </a>
                 </div>

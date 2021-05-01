@@ -41,7 +41,7 @@ class Home extends React.Component {
                 <div className="row">
                     <nav className="navbar navbar-expand-lg" ref="nav">
                         <div className="nav-left col-lg-6">
-                            <Link to="/Home" className="navbar-brand"><img src={logo} className="logo" /></Link>
+                            <Link to="/Home" className="navbar-brand"><img src={logo} className="logo" alt="img" /></Link>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
@@ -70,7 +70,7 @@ class Home extends React.Component {
                             <Link to="/About" className="btn-lg get_button" ref="h2">Get Started&nbsp;&nbsp;<i className="fas fa-arrow-right"></i></Link>
                     </div>
                     <div className="banner_svg ">
-                        <img src={banner_svg} className="banner_svg" ref="h3" />
+                        <img src={banner_svg} className="banner_svg" ref="h3" alt="img" />
                     </div>
                 </div>
             </div>
