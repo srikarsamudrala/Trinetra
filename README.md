@@ -1,3 +1,15 @@
+#gaze estimation system with cursor control
+
+## Required libraries
+
+opencv
+numpy
+pyautogui
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
