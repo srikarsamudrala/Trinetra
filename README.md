@@ -1,4 +1,4 @@
-#gaze estimation system with cursor control
+# Gaze Estimation System with Cursor Control
 
 ## Required libraries
 
